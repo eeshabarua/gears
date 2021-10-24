@@ -36,3 +36,7 @@ for name in names:
 
 for location in locations:
     print(location)
+
+
+for name,location in zip(name,location) :
+    print(name,location)

@@ -6,6 +6,7 @@ import requests
 
 html_text = requests.get('https://www.timesjobs.com/candidate/job-search.html?searchType=personalizedSearch&from=submit&txtKeywords=python&txtLocation=').text
 
+
 # prints raw HTML file
 # print(html_text)
 
@@ -75,8 +76,8 @@ for job in jobs:
         
         print
         print(f'''
-        Company Name: {company_name}
-        Skill Set: {skill}
+        Company_Name: {company_name}
+        Skill_Set: {skill}
         ''')
 
         # print('')
