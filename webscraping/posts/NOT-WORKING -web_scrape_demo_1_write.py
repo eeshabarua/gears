@@ -1,3 +1,5 @@
+# THIS DEMO DOESN'T WORK. See web_scrape_demo_1.py
+
 from bs4 import BeautifulSoup, element
 import requests
 import pandas as pd
